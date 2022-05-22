@@ -70,13 +70,36 @@ p {
     margin-left: 25px;
 }
 
-main {
+main .primary {
     width: 75%;
-    display: inline-block;
     margin-left: 20px;
+    display: inline-block;
 }
 
-.benefits {
+/* displays each section in its own seperate blue box */
+main .primary section {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+}
+
+main .primary {
+    display: inline-block;
+}
+
+main .primary section img {
+    max-height: 200px;
+}
+
+main .primary section h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+
+main .benefits {
     margin-right: 20px;
     padding: 20px;
     clear: both;
@@ -133,25 +156,6 @@ main {
     display: block;
     margin: 10px auto;
     max-width: 150px;
-}
-
-/* displays each section in its own seperate blue box */
-main section {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
-
-main section img {
-    max-height: 200px;
-}
-
-main section h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
 }
 
 .footer {
