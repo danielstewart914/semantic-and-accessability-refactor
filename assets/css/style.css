@@ -70,14 +70,14 @@ p {
     margin-left: 25px;
 }
 
-main .primary {
+.primary {
     width: 75%;
     margin-left: 20px;
     display: inline-block;
 }
 
 /* displays each section in its own seperate blue box */
-main .primary section {
+.primary section {
     margin-bottom: 20px;
     padding: 50px;
     height: 300px;
@@ -86,20 +86,20 @@ main .primary section {
     color: #ffffff;
 }
 
-main .primary {
+.primary {
     display: inline-block;
 }
 
-main .primary section img {
+.primary section img {
     max-height: 200px;
 }
 
-main .primary section h2 {
+.primary section h2 {
     margin-bottom: 20px;
     font-size: 36px;
 }
 
-main .benefits {
+.benefits {
     margin-right: 20px;
     padding: 20px;
     clear: both;
@@ -110,37 +110,17 @@ main .benefits {
     background-color: #2589bd;
 }
 
-.benefit-lead {
+.benefits section {
     margin-bottom: 32px;
     color: #ffffff;
 }
 
-.benefit-brand {
-    margin-bottom: 32px;
-    color: #ffffff;
-}
-
-.benefit-cost {
-    margin-bottom: 32px;
-    color: #ffffff;
-}
-
-.benefit-lead h3 {
+.benefits section h3 {
     margin-bottom: 10px;
     text-align: center;
 }
 
-.benefit-brand h3 {
-    margin-bottom: 10px;
-    text-align: center;
-}
-
-.benefit-cost h3 {
-    margin-bottom: 10px;
-    text-align: center;
-}
-
-.benefit-lead img {
+.benefits section img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
