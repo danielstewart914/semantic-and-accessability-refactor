@@ -89,10 +89,6 @@ header nav ul li {
     color: #ffffff;
 }
 
-.primary {
-    display: inline-block;
-}
-
 .primary section img {
     max-height: 200px;
 }
