@@ -34,6 +34,7 @@ header h1 {
 header h1 .seo {
     color: #d9dcd6;
 }
+
 /* navigation bar section*/
 header nav {
     padding-top: 15px;
@@ -62,16 +63,6 @@ header nav ul li {
     background-position: center;
 }
 
-.float-left {
-    float: left;
-    margin-right: 25px;
-}
-
-.float-right {
-    float: right;
-    margin-left: 25px;
-}
-
 /* main content */
 .primary {
     width: 75%;
@@ -96,6 +87,17 @@ header nav ul li {
 .primary section h2 {
     margin-bottom: 20px;
     font-size: 36px;
+}
+
+/* float image left or */
+.float-left {
+    float: left;
+    margin-right: 25px;
+}
+
+.float-right {
+    float: right;
+    margin-left: 25px;
 }
 
 /* benefits side article */
